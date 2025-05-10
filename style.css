@@ -8,24 +8,20 @@ body {
   color: #333;
   line-height: 1.6;
 }
-
 header {
   background: linear-gradient(135deg, #6200ea, #3700b3);
   color: white;
   text-align: center;
   padding: 3rem 1rem;
 }
-
 header h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
 }
-
 header p {
   font-size: 1.2rem;
   opacity: 0.95;
 }
-
 nav {
   background-color: #3700b3;
   padding: 0.8rem 0;
@@ -34,7 +30,6 @@ nav {
   top: 0;
   z-index: 10;
 }
-
 nav ul {
   list-style: none;
   display: flex;
@@ -44,7 +39,6 @@ nav ul {
   padding: 0;
   gap: 1.5rem;
 }
-
 nav a {
   color: white;
   text-decoration: none;
@@ -53,11 +47,9 @@ nav a {
   transition: background 0.3s ease;
   border-radius: 6px;
 }
-
 nav a:hover {
   background-color: #6200ea;
 }
-
 section {
   max-width: 800px;
   margin: 2rem auto;
@@ -67,7 +59,6 @@ section {
   box-shadow: 0 2px 15px rgba(0,0,0,0.03);
   animation: fadeIn 0.6s ease-out;
 }
-
 section h2 {
   color: #6200ea;
   margin-bottom: 1rem;
@@ -75,22 +66,18 @@ section h2 {
   border-bottom: 2px solid #eee;
   padding-bottom: 0.5rem;
 }
-
 ul {
   padding-left: 1.5rem;
 }
-
 li {
   margin-bottom: 0.8rem;
   line-height: 1.5;
 }
-
 a {
   color: #6200ea;
   text-decoration: none;
   font-weight: 500;
 }
-
 a:hover {
   text-decoration: underline;
   color: #3700b3;
@@ -99,14 +86,13 @@ a:hover {
     display: inline-block;
     margin: 0.5rem;
     padding: 0.6rem 1.2rem;
-    background-color: #6200ea;
+    background-color:#5b1d5e;
     color: white;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: background 0.3s;
-  }
-  
+  }  
   .botao-contato:hover {
     background-color: #3700b3;
   }
@@ -118,8 +104,6 @@ a:hover {
     font-size: 0.85rem;
     font-weight: bold;
   }
-    
-
 .foto-perfil {
   width: 120px;
   height: 120px;
@@ -127,9 +111,7 @@ a:hover {
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   border: 3px solid #6200ea;
-
 }
-
 .timeline {
   list-style: none;
   padding-left: 0;
@@ -137,7 +119,6 @@ a:hover {
   border-left: 3px solid #6200ea;
   padding-left: 1rem;
 }
-
 .timeline li {
   position: relative;
   margin-bottom: 1rem;
@@ -145,7 +126,6 @@ a:hover {
   font-weight: 500;
   color: #333;
 }
-
 .timeline li::before {
   content: '';
   position: absolute;
@@ -166,9 +146,8 @@ a:hover {
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
-
 .botao-contato:hover {
-  background-color: #3700b3;
+  background-color: #00a349;
   transform: scale(1.05);
 }
 .botao-download {
@@ -183,10 +162,8 @@ a:hover {
   transition: background-color 0.3s ease, transform 0.3s ease;
   animation: pulse 1.5s infinite;
 }
-
 .botao-download:hover {
   background-color: #00a349;
-
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -202,23 +179,19 @@ a:hover {
   }
 }
 }
-
 @media (max-width: 768px) {
   header h1 {
     font-size: 2rem;
   }
-
-  nav ul {
+ nav ul {
     flex-direction: column;
     gap: 0.8rem;
   }
-
   section {
     padding: 1.5rem;
     margin: 1rem;
   }
 }
-
 footer {
   text-align: center;
   padding: 1.5rem;
@@ -227,7 +200,6 @@ footer {
   font-size: 0.9rem;
   margin-top: 3rem;
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
