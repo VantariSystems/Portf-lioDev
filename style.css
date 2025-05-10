@@ -156,10 +156,9 @@ a:hover {
   background-color: #6200ea;
   border-radius: 50%;
 }
-<!-- Dentro do seu arquivo CSS -->
 .botao-contato {
   display: inline-block;
-  background-color: #6200ea;
+  background-color: #5b1d5e;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
