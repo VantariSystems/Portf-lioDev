@@ -66,18 +66,22 @@ section h2 {
   border-bottom: 2px solid #eee;
   padding-bottom: 0.5rem;
 }
+
 ul {
   padding-left: 1.5rem;
 }
+
 li {
   margin-bottom: 0.8rem;
   line-height: 1.5;
 }
+
 a {
   color: #6200ea;
   text-decoration: none;
   font-weight: 500;
 }
+
 a:hover {
   text-decoration: underline;
   color: #3700b3;
@@ -86,15 +90,16 @@ a:hover {
     display: inline-block;
     margin: 0.5rem;
     padding: 0.6rem 1.2rem;
-    background-color:#5b1d5e;
+    background-color: #ff7043;
     color: white;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: background 0.3s;
-  }  
+  } 
   .botao-contato:hover {
-    background-color: #3700b3;
+    background-color: #e64a19;
+    transform: scale(1.05);
   }
   .badge {
     background: #ffcc00;
@@ -136,25 +141,11 @@ a:hover {
   background-color: #6200ea;
   border-radius: 50%;
 }
-.botao-contato {
-  display: inline-block;
-  background-color: #5b1d5e;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-.botao-contato:hover {
-  background-color: #00a349;
-  transform: scale(1.05);
-}
 .botao-download {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #5b1d5e;
+  background-color: #ff7043;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -162,8 +153,11 @@ a:hover {
   transition: background-color 0.3s ease, transform 0.3s ease;
   animation: pulse 1.5s infinite;
 }
+
 .botao-download:hover {
-  background-color: #00a349;
+  background-color: #e64a19;
+  transform: scale(1.05);
+
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -183,10 +177,12 @@ a:hover {
   header h1 {
     font-size: 2rem;
   }
- nav ul {
+
+  nav ul {
     flex-direction: column;
     gap: 0.8rem;
   }
+
   section {
     padding: 1.5rem;
     margin: 1rem;
