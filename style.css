@@ -172,7 +172,37 @@ a:hover {
   background-color: #3700b3;
   transform: scale(1.05);
 }
+.botao-download {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #5b1d5e;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  animation: pulse 1.5s infinite;
+}
 
+.botao-download:hover {
+  background-color: #00a349;
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(106, 13, 173, 0.7);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(106, 13, 173, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(106, 13, 173, 0);
+  }
+}
+}
 
 @media (max-width: 768px) {
   header h1 {
